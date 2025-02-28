@@ -206,7 +206,7 @@ Se concluye que la metodología utilizada fue adecuada para demostrar el comport
 
 \section{Apendice}
 El código fuente en \LaTeX{} de este informe  puedes consultarlo aquí:
-\href{https://www.fisicalab.com/mrua}{Codigo fuente informe M.R.U.A}
+\href{https://github.com/NICRO10/CODIGO-LABORATORIO.git}{Codigo fuente informe M.R.U.A}
 
 
 \end{document}
