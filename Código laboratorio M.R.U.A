@@ -1,0 +1,212 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, graphicx}
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace{3cm}
+    {\LARGE Politécnico Grancolombiano \par}
+    \vspace{1cm}
+    {\Large Facultad de Ingeniería \par}
+    \vspace{3cm}
+    {\huge \textbf{Informe laboratorio Movimiento Rectilíneo Uniformemente Acelerado} \par}
+    \vspace{3cm}
+    {\Large Autores \par}
+    \vspace{0.5cm}
+    {\large Alisson Yesenia Perez Orozco \par}
+    {\large Juan Nicolás Duarte Avellaneda \par}
+    \vspace{3cm}
+    {\Large Presentado a: \par}
+    \vspace{0.5cm}
+    {\large Jairo Sánchez Luquerna \par}
+    \vspace{4cm}
+    {\large 27 de febrero de 2025 \par}
+    {\large Bogotá D. C.  \par}
+\end{titlepage}
+
+\title{\textbf{Análisis del Movimiento Rectilíneo Uniformemente Acelerado en un Plano Inclinado}}
+\author{Juan Nicolas Duarte Avellaneda, Alisson Yesenia Perez Orozco}
+\date{Febrero 27, 2025}
+
+
+
+\maketitle
+
+\section{Resumen}
+Este experimento tiene como objetivo analizar el Movimiento Rectilíneo Uniformemente Variado (M.R.U.V) y el Movimiento Rectilíneo Uniformemente Acelerado (M.R.U.A) a través de un plano inclinado. Inspirado en los experimentos de Galileo, se busca calcular experimentalmente la aceleración de un cuerpo en un plano inclinado con un ángulo de 30 grados.
+
+Se tomaron mediciones de la posición y el tiempo en los ejes X y Y, así como el tiempo al cuadrado. Se realizaron un total de ocho mediciones exactas para garantizar la precisión de los datos. Los resultados permitieron observar la relación entre el desplazamiento y el tiempo, confirmando el comportamiento acelerado del movimiento. Se identificaron fuentes de error como la fricción y la resistencia del aire, y se sugirieron mejoras para futuras mediciones.
+
+\section{Introducción}
+El estudio del movimiento es fundamental en la física, ya que permite comprender cómo los cuerpos se desplazan bajo la acción de fuerzas. En este experimento, se analiza el M.R.U.V. y el M.R.U.A. mediante el deslizamiento de una canica sobre un plano inclinado de 30 grados.
+
+\subsection{Principios Teóricos}
+\begin{itemize}
+    \item \textbf{Primera Ley de Newton (Ley de la Inercia)}: Un cuerpo en movimiento tiende a mantenerse en movimiento si no actúa una fuerza externa.
+    \item \textbf{Segunda Ley de Newton}: La aceleración de un cuerpo es proporcional a la fuerza neta aplicada sobre él.
+    \item \textbf{Movimiento Uniformemente Acelerado}: Se caracteriza por una aceleración constante, dada por la ecuación:
+    \begin{equation}
+        s = s_0 + v_0 t + \frac{1}{2} a t^2
+    \end{equation}
+    \item \textbf{Gravedad y planos inclinados}: La aceleración de un objeto en un plano inclinado se determina por la componente de la gravedad en la dirección del plano:
+    \begin{equation}
+        a = g \sin(\theta)
+    \end{equation}
+\end{itemize}
+
+\subsection{Hipótesis}
+Si se deja deslizar una canica en un plano inclinado sin fricción apreciable, la aceleración obtenida experimentalmente será cercana a la componente de la gravedad en la dirección del plano.
+
+\subsection{Objetivo}
+Calcular experimentalmente la aceleración de un cuerpo en un plano inclinado y analizar el comportamiento del movimiento, comparando los resultados con los valores teóricos.
+
+\section{Materiales y Métodos}
+\subsection{Materiales}
+
+\begin{itemize}
+    \item Canica
+    \begin{center}
+        \includegraphics[width=5cm]{CANICA .png}
+        
+        \textbf{Figura 1:} Canica utilizada en el experimento.
+    \end{center}
+
+    \vspace{6cm}
+    \item Plano inclinado con ángulo de 30 grados
+      \begin{center}
+        \includegraphics[width=10cm]{PLANOONCLINADO.png}
+        
+        \textbf{Figura 2:} Canaleta utilizada para experimento.
+    \end{center}
+    
+    \item Cronómetro
+     \begin{center}
+        \includegraphics[width=7
+        cm]{CRONOMETRO.png}
+        
+        \textbf{Figura 3:} Cronometro para medir tiempo.
+    \end{center}
+    \item Transportador
+     \begin{center}
+        \includegraphics[width=5cm]{TRANSPORTADOR.png}
+        
+        \textbf{Figura 4:} Transportador utilizado en experimento.
+    \end{center}
+
+    \vspace{4cm}
+    
+    \item Cinta métrica 
+     \begin{center}
+        \includegraphics[width=5cm]{CINTA.png}
+        
+        \textbf{Figura 5:} Cinta utilizada en el experimento.
+    \end{center}
+
+\end{itemize}
+
+\subsection{Procedimiento}
+\begin{enumerate}
+    \item Colocar el plano inclinado en un ángulo de 30 grados respecto a la horizontal.
+    \item Medir y marcar diferentes posiciones a lo largo del plano.
+    \item Dejar caer la canica desde la posición inicial sin impulso adicional.
+    \item Registrar el tiempo que tarda en alcanzar cada marca.
+    \item Repetir el experimento ocho veces para obtener valores promedio precisos.
+    \item Calcular la aceleración a partir de los datos obtenidos y realizar un análisis comparativo con los valores teóricos.
+
+     \begin{center}
+        \includegraphics[width=10cm]{PROCEDIMIENTO.png}
+        
+        \textbf{Figura 6 :} Canica utilizada en el experimento.
+    \end{center}
+\end{enumerate}
+
+\section{Resultados}
+Se presentan los valores obtenidos en una tabla con medidas de tiempo y posición. Se realizaron ocho mediciones exactas para reducir la incertidumbre en los resultados. Además, se incluyen gráficas de posición vs. tiempo y tiempo al cuadrado vs. posición para evidenciar la relación cuadrática del movimiento.
+
+\begin{itemize}
+    \item Tabla de Datos 1 
+     \begin{center}
+        \includegraphics[width=10cm]{TABLA1.png}
+        
+        \textbf{Tabla 1:} Datos obtenidos por posicion y tiempo
+    \end{center}
+    
+    \item Tabla de Datos 2 
+    \begin{center}
+        \includegraphics[width=13cm]{TABLA2.png}
+        
+        \textbf{Tabla 2:} Elevamos al cuadrado el tiempo obtenido
+    \end{center}
+    
+    \item Tabla de Datos 3 
+    \begin{center}
+        \includegraphics[width=14cm]{TABLA3.png}
+        
+        \textbf{Tabla 3:} Encontramos los valores de X² el cual fue el cuadrado del tiempo inicial elevado a la potencia de 2 , adicional el dato de XY por medio del producto de X y Y. 
+    \end{center}
+    
+    \item Grafica Experimento M.R.U.A 
+    \begin{center}
+        \includegraphics[width=14cm]{GRAFICA.png}
+        
+        \textbf{Grafica 1:} Representa la linea de tendencia lineal y exponencial del experimento en una grafica de distancia vs tiempo y su respectiva ecuacion de la recta.
+    \end{center}
+    
+\vspace{4cm}
+
+ \item Tiempos y grafica durante el experimento 
+    \begin{center}
+        \includegraphics[width=14cm]{datos1.png}
+        
+        \textbf{Imagen 1:} Datos de tiempo y graficas tomados  durante el experimento.
+    \end{center}
+
+\vspace{4cm}
+
+ \item Calculos durante el experimento
+    \begin{center}
+        \includegraphics[width=14cm]{Datos 2 .png}
+        
+        \textbf{Imagen  2:} Calculos realizados durante el experimento.
+    \end{center}
+    
+\end{itemize}
+
+
+
+
+
+\vspace{4cm}
+
+
+\section{Discusión}
+Los resultados obtenidos confirman el comportamiento del M.R.U.A., mostrando que la aceleración es constante. Se compararon los valores experimentales con la teoría de la aceleración en planos inclinados, $a = g \sin(\theta)$. Se discuten posibles errores como la resistencia del aire, la fricción y la precisión del cronómetro. La repetición de ocho mediciones ayudó a reducir la influencia de estos errores.
+
+Se observó una correlación significativa entre el desplazamiento y el tiempo cuadrático, lo que concuerda con la ecuación del movimiento uniformemente acelerado. La gráfica de velocidad vs. tiempo mostró una pendiente constante, lo que sugiere que la aceleración es uniforme. Sin embargo, variaciones en los datos sugieren que ciertos factores externos podrían haber afectado la precisión del experimento.
+
+\section{Conclusiones}
+El experimento permitió validar la teoría del M.R.U.A., obteniendo valores de aceleración consistentes con la física clásica. Se verificó la relación entre la posición y el tiempo al cuadrado, confirmando el patrón cuadrático del movimiento. Para futuras mejoras, se sugiere reducir la fricción y utilizar sensores para mediciones más precisas. Además, la inclusión de más repeticiones podría mejorar la confiabilidad de los datos experimentales.
+
+Se concluye que la metodología utilizada fue adecuada para demostrar el comportamiento de un cuerpo en caída en un plano inclinado y que los resultados obtenidos apoyan las predicciones teóricas del movimiento uniformemente acelerado.
+
+\section{Referencias}
+\begin{thebibliography}{}
+\bibitem{galileo} Galileo Galilei, "Discursos y demostraciones matemáticas en torno a dos nuevas ciencias", 1638.
+    \bibitem{serway} Serway, R. A., \& Jewett, J. W. (2014). "Física para ciencias e ingeniería". Cengage Learning.
+    \bibitem{tipler} Tipler, P. A., \& Mosca, G. (2008). "Física para científicos e ingenieros". Editorial Reverté.
+\end{thebibliography}
+
+
+\section{Apendice}
+El código fuente en \LaTeX{} de este informe  puedes consultarlo aquí:
+\href{https://www.fisicalab.com/mrua}{Codigo fuente informe M.R.U.A}
+
+
+\end{document}
